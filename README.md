@@ -13,7 +13,7 @@ Currently boots via Limine in QEMU and prints to the serial port.
 
 Requirements: Rust (via [rustup](https://rustup.rs)), `qemu-system-x86`, `ovmf`, `git`.
 
-On Debian/Kali/Ubuntu:
+On Debian/Ubuntu:
 
 ```
 sudo apt install qemu-system-x86 ovmf git
