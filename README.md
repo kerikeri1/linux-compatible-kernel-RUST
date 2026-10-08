@@ -53,4 +53,4 @@ docs/     notes and design docs
 
 ## License
 
-To be decided.
+See [LICENSE](LICENSE).
