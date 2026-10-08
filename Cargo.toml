@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = ["kernel", "xtask"]
+# `cargo test` dalla root non deve provare a compilare il kernel per l'host
+default-members = ["xtask"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
